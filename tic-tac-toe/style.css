@@ -1,0 +1,189 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: "Press Start 2P", cursive;
+    background-color: #0F172A;
+    color: #22D3EE;
+}
+
+.content{
+    height: 100vh;
+    width: 100vw;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content: center;
+
+}
+
+.block{
+    height: 150px;
+    width: 150px;
+    background-color: #22304A;
+    margin: 0px;
+    border:none;
+    border-radius: 14px;
+    box-shadow:
+        0 0 5px #22D3EE,
+        0 0 10px #22D3EE;
+        /* 0 0 20px #22D3EE; */
+
+    cursor: pointer;
+}
+
+.block:hover{
+    background-color: #1E3A8A;
+    box-shadow:
+        0 0 10px #22D3EE,
+        0 0 20px #22D3EE,
+        0 0 40px #22D3EE;
+    
+    transform: scale(1.05);
+}
+
+h1 {
+    text-shadow:
+    0 0 5px #22D3EE,
+        0 0 10px #22D3EE,
+        0 0 20px #22D3EE;
+
+    margin-bottom: 20px;
+    
+}
+
+
+
+.container{
+    height: 500px;
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content:space-evenly;
+    justify-content: space-evenly;
+    /* height: 70vh; */
+}
+
+.x-style{
+    color: #22D3EE;
+    text-shadow: 
+        0 0 5px #22D3EE,
+        0 0 10px #22D3EE;
+        
+    font-size: 5rem;
+    }
+    
+.o-style{
+    color: #F472B6;
+    text-shadow: 
+        0 0 5px #F472B6,
+        0 0 10px #F472B6;
+    font-size: 5rem;
+    }
+    
+.msg{
+    color:#FACC15;
+    
+    text-shadow: 
+        0 0 5px #FACC15,
+        0 0 10px #FACC15;
+
+    font-size: 40px;
+
+}
+
+.winnermsg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.newgamebtn{
+    font-size: 10px;
+    height: 20px;
+    width: 70px;
+    border-radius: 12px;
+    border: none;
+    background-color: #4ADE80;
+    font-family: "Orbitron", sans-serif;
+    box-shadow: 
+    0 0 5px #4ADE80,
+    0 0 10px #4ADE80;
+    color: #0F172A;
+    font-weight: bolder;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.resetbtn{
+    font-size: 10px;
+    height: 20px;
+    width: 70px;
+    border-radius: 12px;
+    border: none;
+    background-color: #4ADE80;
+    font-family: "Orbitron", sans-serif;
+    box-shadow: 
+    0 0 5px #4ADE80,
+    0 0 10px #4ADE80;
+    color: #0F172A;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.newgamebtn:hover{
+    transform: scale(1.05);
+    
+}
+.resetbtn:hover{
+    transform: scale(1.05);
+    
+}
+.newgamebtndraw:hover{
+    transform: scale(1.05);
+    
+}
+
+.drawmsg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.msg-draw{
+    color:#A855F7;
+    
+    text-shadow: 
+    0 0 5px #A855F7,
+    0 0 10px #A855F7;
+    
+    font-size: 40px;
+}
+
+.hide{
+    display:none;
+}
+
+
+.newgamebtndraw{
+    font-size: 10px;
+    height: 20px;
+    width: 70px;
+    border-radius: 12px;
+    border: none;
+    background-color: #4ADE80;
+    font-family: "Orbitron", sans-serif;
+    box-shadow: 
+    0 0 5px #4ADE80,
+    0 0 10px #4ADE80;
+    color: #0F172A;
+    font-weight: bolder;
+    margin-top: 10px;
+}
